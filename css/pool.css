@@ -1,0 +1,113 @@
+.poll_table
+{
+    font-size: 2 ; 
+font-weight: 2px ;
+}
+
+.vote_sub
+{
+    padding: 10px 0 20px 0 ; 
+}.vote_button
+{
+    width: 150px ; 
+    margin: 10px 0 10px 10px  ;
+}
+
+.right_container
+{
+    width: 25% ; 
+    float : right;
+    margin: 0 10px  0 0; 
+}
+
+
+.right_sec
+{
+        border: 1px solid #000000;
+        margin-top: 10px ;
+        margin-bottom: 5px ;  
+      
+
+}
+
+.right_container_of_text
+{
+    margin: 10px 10px 20px 20px ;
+    color: #272727 ;
+
+}
+
+
+.reight_sec_container_header
+{
+    text-align: center ;
+    background-color: #272727 ;
+    color: white; 
+    padding: 5px 0 10px  0 ; 
+    margin : 0 0 0 0 ;
+}
+
+
+
+/* The container */
+.poolcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.poolcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #272727;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.poolcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.poolcontainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.poolcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.poolcontainer .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

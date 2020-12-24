@@ -1,0 +1,36 @@
+.dynamic_body
+{
+	margin: auto ;
+	width: 60% ;
+}
+.pic
+{
+	position: relative;
+	width : 250px ;
+	height: auto ;
+	padding: 10px 10px 10px 10px ;
+
+
+}
+
+.dynamic_container
+{
+	margin: 70px 0 0 70px ;
+
+}
+
+.info
+{
+	
+}
+
+.field_text
+{
+	color : #272727;
+
+}
+
+.dynamic_time
+{
+	margin: 50px 0 0 0 ;
+}

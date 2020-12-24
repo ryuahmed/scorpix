@@ -1,0 +1,191 @@
+
+.contaner::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+i {
+
+    margin: 9% 0 0 0  ; 
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.right {
+
+    float: right ; 
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.right:hover {
+ opacity : 0.6 ;
+ font-size: bold ; 
+   
+}
+.see
+{
+     cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  text-decoration:none ;
+
+}
+.news
+{
+    margin-top:5%; 
+}
+.hotnews
+{
+    width: 45%;
+    float: left ;
+    text-align:justify;
+    margin: 5px 5px 5px 25px;
+
+}
+
+.newsdiscropp
+{
+    height: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+
+.morenews
+{
+    float: right;
+    width: 45%;
+    text-align:justify;
+    margin: 5px 5px 5px 25px;
+}
+
+.fewnews
+{
+        text-align:justify;
+    color: #272727 ;
+
+        margin: 20px 5px 20px 25px;
+
+}
+.bodycolor
+{
+	background-color:  #dedede ;   
+    
+}
+
+#ibuttom_container
+{
+	float :left ; 
+	width: 70% ; 
+	
+}
+
+.ibuttom_container
+{
+    float :left ; 
+    width: 100% ; 
+    
+}
+
+.ibuttomnews
+{
+    margin: 0 0 0 0 ; 
+    background-color: #272727 ;
+    display: inline-block; 
+    float : left ;
+    width: 50% ; 
+    padding : 20px 0 10px 10px ;
+    color: #272727 ;
+
+}
+.ibuttom
+{
+    margin: 0 0 0 0 ; 
+    background-color: #272727 ;
+    display: inline-block; 
+    float : left ;
+    width: 25% ; 
+    padding : 20px 0 10px 0 ;
+
+}
+
+.ibuttom:hover
+{
+    color : #272727;
+    
+    background-color: #ffffff ; 
+    border-color: #272727; 
+}
+
+.this 
+{
+    color : #272727;
+
+    background-color: #ffffff ; 
+    border-color: #272727; 
+   
+ 
+}
+.ibuttomcontent
+{	
+	display: none;
+    padding: 6px 12px;
+    border-top: none;
+    left: 0 ; 
+
+}
+
+.boxes
+{
+	padding: 0 6px;
+    float: left;
+    width: 23%;
+
+}
+
+div.gallery {
+	 text-align: center ; 
+ }
+
+div.gallery img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+    margin : 2% 0 0 0 ;
+    width: 65%;
+    height: auto;
+}
+
+div.desc {
+     text-align: center;
+}
+
+.boxes img .text
+{
+	text-align: center ; 
+}
+
+#news
+{
+	
+	border: 2px solid #000000 ; 
+	width: 20% ; 
+	left: 70% ;
+}
+
+
+.left_side
+{
+    color : red ;
+    margin:0 5% 0 5%  ;
+}

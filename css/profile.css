@@ -1,0 +1,44 @@
+.bodycont
+{
+    width: 40%;
+	box-shadow: 5px 0 5px -4px grey, -5px 0 5px -4px grey;}
+
+h1
+{
+	color: #272727;
+}
+
+
+.boxes
+{
+
+    float: left;
+    width: 40%;
+    padding: 20px 0 20px 0 ; 
+
+}
+
+div.gallery {
+	 text-align: center ; 
+ }
+
+div.gallery img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+    margin : 2% 0 0 0 ;
+    width: 50%;
+    height: auto;
+}
+
+div.desc {
+	font-size: 80% ; 
+     text-align: center;
+}
+
+.boxes img .text
+{
+	text-align: center ; 
+}
+

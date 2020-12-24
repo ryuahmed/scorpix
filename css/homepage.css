@@ -1,0 +1,32 @@
+#showcase
+{
+
+}
+.nav
+{  
+    z-index: 1;
+    position:relative ;
+    display: inline-block;
+    background-color: #212f3c ;
+    opacity:0.7;
+    color: white;
+    margin: 0 0;
+    border: none;
+    cursor: pointer;
+    width : 16% ;
+
+}
+
+
+.nav:hover {
+    background-color: #2E2E2E;
+     opacity:.9;
+   
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+

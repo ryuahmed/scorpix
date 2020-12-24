@@ -1,0 +1,22 @@
+.txt
+{
+	color: #272727 ; 
+	font-family: serif;
+	margin: 0 2% 0 2% ; 
+}
+
+.bold
+{
+
+	font-weight: bold; 
+}
+
+.newslist
+{
+	float: left;
+}
+
+.listpace
+{
+	margin: 20px 10px 20px 10px ;
+}

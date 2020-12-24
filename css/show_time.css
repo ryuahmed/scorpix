@@ -1,0 +1,60 @@
+.subcontainer
+{
+	
+	background-color: ;
+
+}
+
+.row
+{
+	bottom:  0 ; 
+	margin: auto;  
+	background-color: ;
+	padding: 20px 0 20px 0 ; 
+}
+
+.movie_name
+{
+			color: #272727 ;
+		
+	font-size:  ; 
+	text-align: center ; 
+	margin: auto ; 
+	width: 20% ; 
+	float : left ;
+	background-color: #BBBBBB ; 
+	
+
+}
+
+.time
+{
+	top : 0 ;
+	margin: 0 0px 0 15px ; 
+    
+    display: inline-block; 
+    float : left ;
+    width: 150px ; 
+    padding : 20px 0 10px 0 ;
+}
+
+.Normal
+{
+	background-color:  #272727 ; 
+ }
+
+ .premium
+ {
+ 	background-color: #0B293E ;
+ }
+
+ .vip
+ {
+ 	background-color: #B47800;
+ }
+
+.dis
+{
+	width: 500px ; 
+	margin: auto ;
+}

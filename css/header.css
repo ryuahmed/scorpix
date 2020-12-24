@@ -1,0 +1,54 @@
+
+header a:link {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #FFFFFF ;
+}
+
+header a:hover
+{
+}
+header
+{
+	background-color:  #272727  ; 
+	color: #ffffff ; 
+	padding-top: 30px ;
+	min-height: 70px;
+	border-bottom:  #f1c40f  3px solid ;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header ul
+{
+	margin: 0 ; 
+	padding : 0 ;
+}
+
+header li
+{
+	float : left;
+	display: inline;
+	padding : 0 20px 0 20px  ;
+}
+
+header #logo
+{
+	float: left; 
+}
+
+
+header #logo h1 
+{
+	margin: 0;
+}
+
+header nav 
+{
+	float : right;
+	margin-top: 15px ;
+
+}
+
